@@ -280,12 +280,6 @@
       <url>http://download.java.net/maven/2/</url>
       <layout>default</layout>
     </repository>
-    <repository>
-      <id>games-darkstar.snapshots</id>
-      <name>games-darkstar SNAPSHOT Repository</name>
-      <url>https://games-darkstar.dev.java.net/nonav/snapshots</url>
-      <layout>default</layout>
-    </repository>
   </repositories>
 
   <pluginRepositories>
