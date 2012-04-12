@@ -9,9 +9,9 @@
     <!-- Include the dependencies -->
     <dependencySet>
       <excludes>
-	<exclude>com.projectdarkstar.server:sgs-server:jar</exclude>
-	<exclude>com.projectdarkstar.server:sgs-shared:jar</exclude>
-	<exclude>com.projectdarkstar.ext.berkeleydb:db:jar</exclude>
+	<exclude>org.reddwarfserver.server:sgs-server:jar</exclude>
+	<exclude>org.reddwarfserver.server:sgs-shared:jar</exclude>
+	<exclude>org.reddwarfserver.ext.berkeleydb:db:jar</exclude>
 	<exclude>com.sleepycat:je:jar</exclude>
 	<exclude>*:zip</exclude>
       </excludes>

@@ -39,25 +39,25 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-	<groupId>com.projectdarkstar.server</groupId>
+	<groupId>org.reddwarfserver.server</groupId>
 	<artifactId>sgs-server</artifactId>
 	<version>${sgs-server.version}</version>
       </dependency>
       <dependency>
-	<groupId>com.projectdarkstar.server</groupId>
+	<groupId>org.reddwarfserver.server</groupId>
 	<artifactId>sgs-server-api</artifactId>
 	<scope>provided</scope>
 	<version>${sgs-server.version}</version>
       </dependency>
 
       <dependency>
-	<groupId>com.projectdarkstar.client</groupId>
+	<groupId>org.reddwarfserver.client</groupId>
 	<artifactId>sgs-client</artifactId>
 	<scope>runtime</scope>
 	<version>${sgs-client.version}</version>
       </dependency>
       <dependency>
-	<groupId>com.projectdarkstar.client</groupId>
+	<groupId>org.reddwarfserver.client</groupId>
 	<artifactId>sgs-client-api</artifactId>
 	<scope>provided</scope>
 	<version>${sgs-client.version}</version>
@@ -298,8 +298,8 @@
   </pluginRepositories>
 
   <properties>
-    <sgs-server.version>0.9.8.9</sgs-server.version>
-    <sgs-client.version>0.9.8.9</sgs-client.version>
+    <sgs-server.version>0.10.2</sgs-server.version>
+    <sgs-client.version>0.10.2</sgs-client.version>
     <jme.version>2.0-S1</jme.version>
     <fenggui.version>1.0-S1</fenggui.version>
     <environmentsystem.version>1.1</environmentsystem.version>

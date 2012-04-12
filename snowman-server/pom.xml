@@ -19,7 +19,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.projectdarkstar.server</groupId>
+      <groupId>org.reddwarfserver.server</groupId>
       <artifactId>sgs-server</artifactId>
     </dependency>
     <dependency>
